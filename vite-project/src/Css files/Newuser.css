@@ -1,0 +1,100 @@
+.newemploye{
+    position: absolute;
+    z-index: -1;
+    width: 87%;  
+    display: flex;
+    justify-content: center; 
+    background-color: rgb(239, 239, 239);
+    right: 0%;
+    height: 100vh;
+}
+
+
+.newemploye form {
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+ .newemploye form img {
+    margin: 10px auto;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+ }
+
+.newemploye form input {
+    width: 300px;
+    text-align: center;
+    margin: 5px 10px;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.date {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.date input {
+    width: 200px !important;
+    text-align: center !important;
+    margin: 2.5px 0px 2.5px 0px !important;
+    padding: 8px !important;
+    border-top-left-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+    border-right: none;
+    
+}
+
+.date label {
+    border: 1px solid blue;
+    
+    border-left: none;
+    padding: 8.43px 32px;
+    text-align: center;
+    width: 100px;
+    background-color: blue;
+    color: white;
+    border-top-right-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+    margin: 3px 5px 3px 0px;
+}
+
+.newemploye form button{
+    width: 300px;
+    text-align: center;
+    margin: 5px 10px;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: rgb(86, 215, 86);
+    color: white;
+    border: none;
+    border: 1px solid rgb(86, 215, 86);
+}
+
+.newemploye p {
+    font-size: 8px;
+    color: red;
+}
+
+.stylefileinput{
+   display: none;
+}
+
+.choosebutton{
+    width: 300px;
+    text-align: center;
+    margin: 5px 10px;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border: 1px solid blue;
+}

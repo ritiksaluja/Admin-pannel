@@ -1,0 +1,30 @@
+.navbar{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #f0e68c;
+    margin: auto;
+    z-index: 1;
+    /* position: fixed;    */
+    
+}
+
+.navbar img {
+    width: 80px;
+    height: 70px;   
+}
+
+.subnav{
+  margin: 5px 20px;
+}
+
+.subnav img {
+    width: 50px;
+    height: 50px;
+}
+
+.subnav p {
+    color: blue;
+    
+}

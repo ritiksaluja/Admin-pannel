@@ -1,0 +1,23 @@
+.home {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.navigation{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.changelists{
+    width: 100vw;
+    display: flex;
+    position: absolute;
+    margin-top: 83px; 
+   
+}
+
+
+

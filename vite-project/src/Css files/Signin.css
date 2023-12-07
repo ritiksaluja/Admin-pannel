@@ -1,0 +1,63 @@
+.signinpage{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0d6cd0;
+  }
+
+  .signinform {
+    background-color: white;
+    width: 300px;
+    /* height: 450px; */
+    text-align: center;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin: 50px 30px;
+  }
+  
+  .signinform img {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .signinform h2 {
+    margin: 5px;
+  }
+  
+  .signinform input {
+    padding: 8px 10px;
+    width: 250px;
+    margin: 10px;
+    border: 1px solid rgba(122, 120, 120, 0.423);
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .signinform input:last-of-type {
+    position: relative;
+  }
+  
+  .signinform span {
+     position: absolute;
+     top:365px;
+     left: 735px;
+     display: none;
+  }
+  
+  .signinform  button {
+    background-color:#0d6cd0 ;
+    color: white;
+    width: 250px;
+    margin: 10px;
+    padding: 8px 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  .signinform p {
+    color: red;
+    font-size: 10px;
+  }
+
